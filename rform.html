@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('eg-1.jpg');
+            background-size: cover;
+        }
+        #headline{
+            text-align: center;
+            margin: 60px;
+        }
+        .mid{
+            margin: 50px 440px 440px;
+            padding-bottom: 20px;
+            border:2px solid black;
+            text-align: center;
+            color: rgb(145, 70, 9);
+        }
+        #inputdefault{
+            margin-bottom: 20px;
+            width: 200px;
+            background-color:transparent;
+            padding: 10px;
+            cursor: pointer;
+        }
+        #btn{
+            background-color: transparent;
+            padding: 10px ;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="backend.php">
+    <header id="headline">
+        <h1>ABC FOUNDATION PVT. LTD.</h1>
+    </header>
+    <div class="mid">
+        <h2>Register</h2>
+        <p>Create your account here. Its free and only takes a minute.</p>
+        <div class="main">
+            <div>
+                <input id="inputdefault" type="text" name="fname" placeholder="First Name">
+            </div>
+            <div>
+                <input id="inputdefault" type="text" name="lname" placeholder="Last Name">
+            </div>    
+            <div>
+                <input type="email" id="inputdefault" name="myEmail" placeholder="Email">
+            </div>
+            <div>
+                <input type="address" id="inputdefault" name="myAddress" placeholder="Address">
+            </div>
+            <div>
+                <input type="password" id="inputdefault" name="myPassword" placeholder="Password">
+            </div>
+            <div>
+                <input type="password" id="inputdefault" name="myConfirm" placeholder="Confirm Password">
+            </div>
+            <div>
+                <input type="submit" id="btn" value="Register Now">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
